@@ -1,0 +1,235 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow:visible;
+}
+
+
+.roxoponto{
+  background-color: #8100cc;
+  width: 20px;
+  height: 20px;
+  border-radius: 30px;
+}
+
+.azulponto{
+  background-color: #006eff;
+  width: 20px;
+  height: 20px;
+  border-radius: 30px;
+}
+
+.verdeponto{
+  background-color: #036e1e;
+  width: 20px;
+  height: 20px;
+  border-radius: 30px;
+}
+
+.laranjaponto{
+  background-color: #FF6100;
+  width: 20px;
+  height: 20px;
+  border-radius: 30px;
+}
+
+.amareloponto{
+  background-color: #baae00;
+  width: 20px;
+  height: 20px;
+  border-radius: 30px;
+}
+
+#tableroxo{
+  display: block;
+
+}
+#tableazul{
+  display:none;
+}
+#tableverde{
+  display: none;
+}
+
+#tablelaranja{
+  display: none;
+}
+
+#tableamarelo{
+  display: none;
+}
+
+
+.page-item.active .page-link {
+  background-color: lightgrey !important;
+  border: 1px solid black;
+}
+.page-link {
+  color: black !important;
+}
+
+
+.menu{
+  width: 100%;
+  height: 80px;
+  padding: 10px 0;
+  background-color: #177346;
+  z-index: 1000;
+ 
+  top: 0;
+  left: 0;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+.menu ul{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 60%;
+  list-style: none;
+ 
+}
+
+.menu ul li{
+  padding: 20px 10px;
+
+}
+
+.menu ul li a{
+  text-decoration: none;
+  color:#fff;
+  font-family:'Poppins', sans-serif;
+  padding: 20px 10px;
+  transition: all 0.8s;
+
+}
+.menu ul li a:hover{
+  background-color: #1A402D;
+  color:#fff;
+  padding: 20px 10px;
+  border-radius: 8px;
+ 
+}
+
+.leaflet-touch .leaflet-bar a:first-child {
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+  background-color: #177346;
+  color: #fff;
+  border: none;
+  
+}
+
+
+#map {
+  height: 100vh;
+  width: 100vw;
+
+}
+
+.mydmap {
+  width: 100px;
+  height: 100px;
+  background-color: #00a656;
+  background-image: url(../images/localizador.png);
+}
+
+@media (max-width:700px) {
+  /* #map {
+    height: 400px;
+    width: 100%;
+
+  } */
+}
+
+html {
+  background-color: #FFF;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+/* formulário de contato */
+
+form {
+  width: 90%;
+  min-width: 28.125em;
+  max-width: 35em;
+  background-color: #fff;
+  padding: 1em;
+}
+
+fieldset {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+label,
+input,
+textarea {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  color:#1A402D;
+  font-weight: bold;
+}
+
+input,
+textarea {
+  background-color: white;
+  border: 2px solid transparent;
+  border-bottom-color: #1A402D;
+  padding: 0.75em;
+  margin: 0.5em 0 2.5em;
+  color: black;
+  outline: 0;
+}
+
+input:invalid:focus,
+textarea:invalid:focus {
+  border-bottom: 2px solid #ff000d;
+}
+
+input:valid:focus,
+textarea:valid:focus {
+  border-bottom: 2px solid #FFF;
+}
+
+input:focus,
+textarea:focus {
+  border-bottom: 2px solid #bbbbbb;
+  background-color: #FFF;
+}
+
+legend {
+  padding: 0.5em;
+  text-align: center;
+  font-weight: bold;
+  color: #fff;
+  background-color: #177346;
+  font-size: 1.5em;
+
+}
+ /* Enviar */
+.btn {
+  background-color: #1A402D;
+  color: white;
+  cursor: pointer;
+  padding: 0.7em;
+  font-size: 1.2em;
+  border: none;
+}
