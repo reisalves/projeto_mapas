@@ -54,7 +54,9 @@
 <!-- LISTA 1 ROXO  -->
     <div class="col-sm-12 col-md-12 my-5" id="tableroxo"> 
 
-<table id="example" class="display table table-success table-striped" style="width:100%;color:#000">
+<table id="example" 
+data-order='[[ 1, "asc" ]]' data-page-length='5'
+class="display table table-success table-striped" style="width:100%;color:#000">
         <thead>
             <tr>
                 <th>Pontos</th>
@@ -331,7 +333,9 @@
 <!-- LISTA 2 AZUL  -->
     <div class="col-sm-12 col-md-12 my-5" id="tableazul"> 
 
-<table id="example2" class="display table table-success table-striped" style="width:100%;color:#000">
+<table id="example2"
+data-order='[[ 1, "asc" ]]' data-page-length='5'
+class="display table table-success table-striped" style="width:100%;color:#000">
         <thead>
             <tr>
                 <th>Pontos</th>
@@ -575,7 +579,9 @@
     <!-- LISTA 3 VERDE -->
     <div class="col-sm-12 col-md-12 my-5" id="tableverde"> 
 
-<table id="example3" class="display table table-success table-striped" style="width:100%;color:#000">
+<table id="example3" 
+data-order='[[ 1, "asc" ]]' data-page-length='5'
+class="display table table-success table-striped" style="width:100%;color:#000">
         <thead>
             <tr>
                 <th>Pontos</th>
@@ -835,7 +841,9 @@
 <!-- LISTA 4 LARANJA  -->
 <div class="col-sm-12 col-md-12 my-5" id="tablelaranja"> 
 
-<table id="example" class="display table table-success table-striped" style="width:100%;color:#000">
+<table id="example4" 
+data-order='[[ 1, "asc" ]]' data-page-length='5'
+class="display table table-success table-striped" style="width:100%;color:#000">
         <thead>
             <tr>
                 <th>Pontos</th>
@@ -1073,7 +1081,9 @@
     <!-- LISTA 5 AMARELO  -->
     <div class="col-sm-12 col-md-12 my-5" id="tableamarelo"> 
 
-<table id="example" class="display table table-success table-striped" style="width:100%;color:#000">
+<table id="example5" 
+data-order='[[ 1, "asc" ]]' data-page-length='5'
+class="display table table-success table-striped" style="width:100%;color:#000">
         <thead>
             <tr>
                 <th>Pontos</th>
