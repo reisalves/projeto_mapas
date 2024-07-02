@@ -43,9 +43,11 @@
 
 <div class="col-sm-12 col-md-12 d-flex justify-content-center alig-items-center pb-4">
 <div class="btn-group" role="group" aria-label="Basic example">
-  <button type="button" class="btn" id="btnRoxo" style="background-color:green;color:#fff">Roxo</button>
-  <button type="button" class="btn" id="btnVermelho" style="background-color:tomato">Vermelho</button>
-  <button type="button" class="btn" id="btnLaranja" style="background-color:orange">Laranja</button>
+  <button type="button" class="btn" id="btnRoxo" style="background-color:purple">Roxo</button>
+  <button type="button" class="btn" id="btnAzul" style="background-color:blue">Azul</button>
+  <button type="button" class="btn" id="btnVerde" style="background-color:green">Verde</button>
+  <button type="button" class="btn" id="btnLaranja" style="background-color:#FF6100 ">Laranja</button>
+  <button type="button" class="btn" id="btnAmarelo" style="background-color:#baae00">Amarelo</button>
 </div>
 </div>
 <br>
@@ -155,7 +157,7 @@
             <tr>
                 <td>Creche Lagoinha</td>
                 <td>06:17</td>
-                <td><div class="roxponto"></div></td>
+                <td><div class="roxoponto"></div></td>
 
             </tr>
 
