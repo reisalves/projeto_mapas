@@ -3,11 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  
-  
-
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-<link rel="stylesheet" href="https://cdn.datatables.net/2.0.4/css/dataTables.bootstrap.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.datatables.net/2.0.4/css/dataTables.bootstrap.css">
 
 <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
 <script src="https://cdn.datatables.net/2.0.4/js/dataTables.js"></script>
@@ -16,34 +14,39 @@
   
   <link rel="stylesheet" href="css/style.css">
 
+
+<style>
+    #example_wrapper,#example2_wrapper,#example3_wrapper,#example4_wrapper,#example5_wrapper{
+        margin-top:20px
+    }
+  
+ 
+</style>
+
+
+
+
   <title>Points Coleta</title>
 </head>
-<style>
-    .col-sm-6.text-left{
-        margin:20px 0 0 0;
-    }
-</style>
-<body>
 
-<div class="container mb-2 menu">
-    <div class="row">
+<!DOCTYPE html>
+<html lang="pt-br">
 
-    <div class="menu">
+<div class="menu">
     <ul>
+    <li><a href="pontos2.php">ROTAS</a></li>
       <li><a href="feedback.php">FEEDBACK</a></li>
-      <li><a href="pontos2.php">ROTAS</a></li>
       <li><a href="contato.php">CONTATO</a></li>
     </ul>
   </div>
 
-</div>
-</div>
+
 <br>
 <div class="container mt-4">
   <div class="row d-flex justify-content-center w-100">
 
-<div class="col-sm-12 col-md-12 d-flex justify-content-center alig-items-center pb-4">
-<div class="btn-group" role="group" aria-label="Basic example">
+<div class="col-sm-12 col-md-12 d-flex justify-content-center alig-items-center pb-4 ">
+<div class="btn-group mb-4" role="group" aria-label="Basic example">
   <button type="button" class="btn" id="btnRoxo" style="background-color:#DFB3F5; color:#000">Roxo</button>
   <button type="button" class="btn" id="btnAzul" style="background-color:#A0BBF5; color:#000">Azul</button>
   <button type="button" class="btn" id="btnVerde" style="background-color:#77BB7F; color:#000">Verde</button>
@@ -60,7 +63,7 @@ data-order='[[ 1, "asc" ]]' data-page-length='5'
 class="display table table-success table-striped" style="width:100%;color:#000">
         <thead>
             <tr>
-                <th>Pontos</th>
+                <th style="width:100%">Pontos</th>
                 <th>Horário</th>
                 <th>Cor</th>
             </tr>
@@ -311,7 +314,7 @@ class="display table table-success table-striped" style="width:100%;color:#000">
             <tr>
                <td>Praça do Rosário</td>
                <td>07:10</td>
-               <td><div class="roxoponto"></div></td>
+               <td ><div class="roxoponto"></div></td>
 
             </tr>
             
@@ -339,7 +342,7 @@ data-order='[[ 1, "asc" ]]' data-page-length='5'
 class="display table table-success table-striped" style="width:100%;color:#000">
         <thead>
             <tr>
-                <th>Pontos</th>
+                <th style="width:100%">Pontos</th>
                 <th>Horário</th>
                 <th>Cor</th>
             </tr>
@@ -585,7 +588,7 @@ data-order='[[ 1, "asc" ]]' data-page-length='5'
 class="display table table-success table-striped" style="width:100%;color:#000">
         <thead>
             <tr>
-                <th>Pontos</th>
+                <th style="width:100%">Pontos</th>
                 <th>Horário</th>
                 <th>Cor</th>
             </tr>
@@ -847,7 +850,7 @@ data-order='[[ 1, "asc" ]]' data-page-length='5'
 class="display table table-success table-striped" style="width:100%;color:#000">
         <thead>
             <tr>
-                <th>Pontos</th>
+                <th style="width:100%">Pontos</th>
                 <th>Horário</th>
                 <th>Cor</th>
             </tr>
@@ -1087,7 +1090,7 @@ data-order='[[ 1, "asc" ]]' data-page-length='5'
 class="display table table-success table-striped" style="width:100%;color:#000">
         <thead>
             <tr>
-                <th>Pontos</th>
+                <th style="width:100%">Pontos</th>
                 <th>Horário</th>
                 <th>Cor</th>
             </tr>
@@ -1461,17 +1464,8 @@ class="display table table-success table-striped" style="width:100%;color:#000">
     </table>
     </div>
 
-
-
-
-
-    
-<div class="container rodape">
-    <div class="row">
-        <div class="col-sm-12 col-md-12">
-
-</div>
-    <ul>
+    <div class="rodape">
+  <ul>
     <li>circular.srpq@gmail.com</li>
   </ul>
 </div>
@@ -1544,7 +1538,9 @@ new DataTable('#example3');
 new DataTable('#example4');
 new DataTable('#example5');
 </script>
+
 <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
 <script src="https://cdn.datatables.net/2.0.4/js/dataTables.js"></script>
+
 </body>
 </html>

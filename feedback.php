@@ -294,8 +294,8 @@ nav ul li {
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
 
-    </div>
-    <ul>
+    <div class="rodape">
+  <ul>
     <li>circular.srpq@gmail.com</li>
   </ul>
 </div>

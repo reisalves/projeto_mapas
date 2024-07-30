@@ -3,10 +3,6 @@
 include("./componentes/header.php");
 
 ?>
-
-
-
-
     <form action="#" method="post" autocomplete="off">
         <fieldset>
           <div class="bgcor ">
@@ -29,11 +25,6 @@ include("./componentes/header.php");
 
     </form>
 
-    </div>
-    <ul>
-    <li>circular.srpq@gmail.com</li>
-  </ul>
-</div>
 
 </body>
 </html>
