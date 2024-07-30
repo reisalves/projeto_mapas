@@ -1,55 +1,18 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <link rel="stylesheet" href="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.css" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet.locatecontrol@0.79.0/dist/L.Control.Locate.min.css" />
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
-<!-- 
-  <link rel="stylesheet" href="https://cdn.datatables.net/2.0.4/css/dataTables.dataTables.css" />
-  <script src="https://cdn.datatables.net/2.0.4/js/dataTables.js"></script> -->
-  
+<?php
+
+include("./componentes/header.php");
+
+?>
 
 
 
-  <link rel="stylesheet" href="css/style.css">
 
-  <title>Points Coleta</title>
-</head>
-
-<!DOCTYPE html>
-<html lang="pt-br">
-
-<div class="menu">
-  <ul>
-    <li><a href="">FEEDBACK</a></li>
-    <li><a href="">ROTAS</a></li>
-    <li><a href="">CONTATO</a></li>
-  </ul>
-</div>
-
-<div class="rodape">
-  <ul>
-    <li>circular.srpq@gmail.com</li>
-  </ul>
-</div>s
-
-
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="author" content="Wesley Victor Pereira Silva" />
-    <meta name="description" content="Página de formulário de contato em HTML." />
-    <meta name="keywords" content="Formulário de contato, HTML, web development" />
-    <title>Formulário de contato</title>
-    <link rel="stylesheet" href="style.css" />
-</head>
-
-<body>
     <form action="#" method="post" autocomplete="off">
         <fieldset>
-            <legend>Formulário de Contato</legend>
+          <div class="bgcor ">
+            <legend class= "w-100 mb-3">Formulário de Contato</legend>
+            <br>
+            </div>
             <label for="name">Nome</label>
             <input type="text" name="name" id="name" required placeholder="Digite seu nome completo" />
             <label for="email">E-mail</label>
@@ -66,6 +29,11 @@
 
     </form>
 
+    </div>
+    <ul>
+    <li>circular.srpq@gmail.com</li>
+  </ul>
+</div>
 
 </body>
 </html>

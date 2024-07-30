@@ -28,13 +28,14 @@
 <div class="container mb-2 menu">
     <div class="row">
 
-<div class="menu">
-  <ul>
-    <li><a href="">FEEDBACK</a></li>
-    <li><a href="">ROTAS</a></li>
-    <li><a href="">CONTATO</a></li>
-  </ul>
-</div>
+    <div class="menu">
+    <ul>
+      <li><a href="feedback.php">FEEDBACK</a></li>
+      <li><a href="pontos2.php">ROTAS</a></li>
+      <li><a href="contato.php">CONTATO</a></li>
+    </ul>
+  </div>
+
 </div>
 </div>
 <br>

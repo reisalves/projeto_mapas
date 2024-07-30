@@ -61,6 +61,7 @@ h2 {
   color: #fff;
   background-color: #177346;
   font-size: 1.5em;
+  font-family: arial;
 
 }
 
@@ -128,14 +129,14 @@ nav ul li {
 
   <div class="menu">
     <ul>
-      <li><a href="">FEEDBACK</a></li>
-      <li><a href="">ROTAS</a></li>
-      <li><a href="">CONTATO</a></li>
+    <li><a href="pontos2.php">ROTAS</a></li>
+      <li><a href="feedback.php">FEEDBACK</a></li>
+      <li><a href="contato.php">CONTATO</a></li>
     </ul>
   </div>
 
 <div class="container">
-  <div class="row">
+  <div class="row d-flex justify-content-center">
     <div class="col-md-6 col-sm-12 mb-1">
       <h2 class="text-center my-4 py-3">Feedback</h2>
     </div>
@@ -143,7 +144,7 @@ nav ul li {
 </div>
 
   <div class="container">
-    <div class="row">
+    <div class="row d-flex justify-content-center">
       <div class="col-md-6">
       
 
@@ -292,6 +293,13 @@ nav ul li {
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
+
+    </div>
+    <ul>
+    <li>circular.srpq@gmail.com</li>
+  </ul>
+</div>
+
 </body>
 
 </html>
