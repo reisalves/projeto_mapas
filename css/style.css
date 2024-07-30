@@ -233,3 +233,66 @@ legend {
   font-size: 1.2em;
   border: none;
 }
+
+#arrow1 {
+  background-color: #ffffff;
+  color: #177346;
+  border-radius: 45px;
+  transition: ease-in 0.2s;
+
+}
+
+#arrow2 {
+  background-color: #fff;
+  color: #177346;
+  border-radius: 45px;
+  transition: ease-in 0.2s;
+ 
+
+}
+
+#arrow3 {
+  background-color: #fff;
+  color: #177346;
+  border-radius: 45px;
+  transition: ease-in 0.2s;
+  
+}
+
+#arrow4 {
+  background-color: #fff;
+  color: #177346;
+  border-radius: 45px;
+  transition: ease-in 0.2s;
+
+}
+
+
+header {
+box-shadow: 0px 0px 20px rgba(255, 2, 2, 0.1);
+background: #fffefe;
+position: fixed;
+width: 100%;
+top: 0;
+}
+
+h2 {
+padding: 0.5em;
+text-align: center;
+font-weight: bold;
+color: #fff;
+background-color: #177346;
+font-size: 1.5em;
+
+}
+
+header, nav ul {
+display: flex;
+justify-content: space-between;
+padding: 1rem;
+}
+
+nav ul li {
+margin-left: 1rem;
+
+}
