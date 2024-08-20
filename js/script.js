@@ -15,7 +15,7 @@ var greenIcon = L.icon({
 
 
 var myIcon = L.icon({
-  iconUrl: 'images/localizador.png',
+  iconUrl: 'images/localizador1.png',
   // shadowUrl: 'leaf-shadow.png',
 
   iconSize: [25, 25], // size of the icon
