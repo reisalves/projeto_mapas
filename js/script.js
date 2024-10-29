@@ -94,13 +94,13 @@ if (navigator.geolocation) {
     var map = L.map('map', {
       // center: [latitude, longitude],
       center: [-21.699094759711787, -47.517080022998655],
-      zoom: 15,
+      zoom: 17,
     })
   
 
    
 
-    L.marker([-21.695407642461557, -47.474835004277466], { icon: bus }).addTo(map).bindPopup("Bus");
+    // L.marker([-21.695407642461557, -47.474835004277466], { icon: bus }).addTo(map).bindPopup("Bus");
 
 
     L.marker([latitude, longitude ], { icon: greenIcon }).addTo(map).bindPopup("Minha localização");
@@ -298,13 +298,13 @@ if (navigator.geolocation) {
     // function onMapClick(e) {
     //   alert("You clicked the map at " + e.latlng);
     // }
-L.Routing.control({
-  waypoints: [
-    L.latLng(latitude, longitude),
-    L.latLng(-21.695407642461557, -47.474835004277466)
-  ],
-  show:false
-}).addTo(map);
+// L.Routing.control({
+//   waypoints: [
+//     L.latLng(latitude, longitude),
+//     L.latLng(-21.695407642461557, -47.474835004277466)
+//   ],
+//   show:false
+// }).addTo(map);
     // map.on('click', onMapClick);
 
     // add an OpenStreetMap tile layer

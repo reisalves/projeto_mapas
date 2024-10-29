@@ -47,11 +47,11 @@
 
 <div class="col-sm-12 col-md-12 d-flex justify-content-center alig-items-center pb-4 ">
 <div class="btn-group mb-4" role="group" aria-label="Basic example">
-  <button type="button" class="btn" id="btnRoxo" style="background-color:#DFB3F5; color:#000">Roxo</button>
-  <button type="button" class="btn" id="btnAzul" style="background-color:#A0BBF5; color:#000">Azul</button>
-  <button type="button" class="btn" id="btnVerde" style="background-color:#77BB7F; color:#000">Verde</button>
-  <button type="button" class="btn" id="btnLaranja" style="background-color:#F59747; color:#000">Laranja</button>
-  <button type="button" class="btn" id="btnAmarelo" style="background-color:#F4EC5E; color:#000">Amarelo</button>
+  <button type="button" class="btn" id="btnRoxo" style="background-color:#8600c8; color:#000">Roxo</button>
+  <button type="button" class="btn" id="btnAzul" style="background-color:#326be6; color:#000">Azul</button>
+  <button type="button" class="btn" id="btnVerde" style="background-color:#00bb16; color:#000">Verde</button>
+  <button type="button" class="btn" id="btnLaranja" style="background-color:#f87200; color:#000">Laranja</button>
+  <button type="button" class="btn" id="btnAmarelo" style="background-color:#ebde00; color:#000">Amarelo</button>
 </div>
 </div>
 <br>
